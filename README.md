@@ -1,8 +1,10 @@
 # FFTW-Plan-Manager
 
-Simple plan manager for FFTW to remove the need to make plans. To use, include `fftw_plan_manager.hpp` and:
+Simple plan manager for FFTW to remove the need to make plans. Link with `-lfftwpm`, `-lfftw3` and `-lfftw3f`.
 
-Instantiate a `FFTWPlanManager` object:
+To use, include `fftw_plan_manager.hpp` and:
+
+Instantiate an `FFTWPlanManager` object:
 
 `FFTWPlanManager my_plan_manager`.
 
